@@ -1,0 +1,63 @@
+{
+  "name": "aisx",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "aisx-icon": "./libraries/aisx-icon",
+    "api": "./src/api",
+    "apisauce": "^1.0.1",
+    "bignumber.js": "^8.0.1",
+    "components": "./src/components",
+    "helpers": "./src/helpers",
+    "i18n": "./src/i18n",
+    "immutable": "^4.0.0-rc.12",
+    "lodash": "^4.17.11",
+    "numbro": "^2.1.1",
+    "numeral": "^2.0.6",
+    "prop-types": "^15.6.2",
+    "pure-component": "./libraries/pure-component",
+    "react": "16.6.3",
+    "react-fast-compare": "^2.0.4",
+    "react-native": "0.57.8",
+    "react-native-config": "^0.11.7",
+    "react-native-gesture-handler": "^1.0.12",
+    "react-native-global-props": "^1.1.5",
+    "react-native-i18n": "^2.0.15",
+    "react-native-redux-i18n": "^1.0.11",
+    "react-native-size-matters": "./libraries/react-native-size-matters",
+    "react-native-swiper": "^1.5.14",
+    "react-native-view-container": "./libraries/react-native-view-container",
+    "react-navigation": "^3.0.9",
+    "react-navigation-redux-helpers": "^2.0.9",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.4",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0",
+    "redux-saga": "^0.16.2",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "screens": "./src/screens",
+    "services": "./src/services",
+    "store": "./src/store",
+    "styles": "./src/styles"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
